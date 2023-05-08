@@ -1,0 +1,71 @@
+form:after{
+content:"";
+display:table;
+clear:both;
+}
+
+form{
+	color:white;
+	margin:auto;
+width:600px;
+
+}
+
+form legend{
+margin:0 0 0.25em 0;
+}
+
+form label{
+margin-top:5px;
+padding:5px 0;
+display:block;
+}
+
+form #send{
+width:100%;
+padding:5px 0;
+}
+
+form textarea{
+resize:none; 
+width:100%;
+}
+
+form #pick option, textarea, input, select, option{
+color:black;
+}
+
+form #pick option:hover, textarea:hover, input:hover, select:hover, option:hover{
+background:#ff5100;
+;
+
+			-moz-transition:all 0.1s ease-in-out;
+			-o-transition:all 0.1s ease-in-out;
+			-webkit-transition:all 0.1s ease-in-out;
+			transition:all 0.1s ease-in-out;
+}
+
+form #pick option:focus, textarea:focus, input:focus, select:hover option{
+background:#ffbfa2;
+color:black;
+}
+
+form select, form input{
+padding:0.25em 0;
+width:100%;
+}
+
+#send{
+width:100%;
+margin-bottom:20px;
+}
+
+form fieldset{
+border:none;
+margin:0 0 2em;
+padding:0;
+}
+
+legend+textarea{
+margin-top:10px;
+}

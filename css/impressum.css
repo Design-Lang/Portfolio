@@ -1,0 +1,25 @@
+#impressum{
+    text-align:center;
+    color:white;
+background-color:rgba(0, 0, 0, 0.7);
+display:block;
+height: 100%}
+
+#impressum h2{
+    padding-top:50px;
+    color:white;
+}
+
+#impressum h3{
+    font-size:30px;
+    padding-top:66px;
+    padding-bottom:20px;
+    color:white;
+}
+
+p{
+    margin-top:10px;
+    line-height:40px;
+    font-size:25px;
+
+}

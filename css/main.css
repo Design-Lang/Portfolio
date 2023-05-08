@@ -1,0 +1,141 @@
+*{  margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-family: 'arvo', sans-serif;}
+
+
+    body{}
+    
+
+#background {
+    width:100%;
+    height:100svh;
+    background-color:"#000";
+    background:url(../img/Arbeitsplatz_Extended.jpg) no-repeat center center fixed;
+    background-size:cover;}
+
+
+.nav{  
+    z-index:1;
+    background-color:rgba(0,0,0,0.5);
+    text-shadow: 0px 3px 2px black;
+    display: block;
+    position:fixed;
+    text-align:center;
+    margin: auto;
+    width:100%;}
+
+
+.nav ul div{
+display:inline-block;}
+
+
+.nav ul li{
+    color:white;
+    margin: auto;
+    display:inline-block;
+    list-style-type: none;
+    justify-content:space-between;}
+
+
+.nav a {
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor:pointer;
+    font-weight: 700;
+    text-decoration:none;
+    color:white;}
+
+
+#header {
+    z-index:-5;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    display:block;
+    overflow: hidden;
+    margin-bottom: 25px;}
+
+
+#intro{ 
+    background-color:rgb(110, 26, 0);
+    background-image: url("../img/videoalt.jpg");
+    background-size: cover;
+    background-position:center;
+    min-width: 100%; 
+    min-height: 100%; 
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;}
+
+
+#overlay{
+    pointer-events: none;
+    margin-top:35svh;
+    width:100%;
+    position: absolute;}
+
+
+#overlay div{
+    margin: auto;
+    width: fit-content;
+    block-size: fit-content;}
+
+
+#overlay div img{
+    margin: auto;
+    margin-right:  4svw;
+    height:27svh;
+    border-radius:2000px;}
+
+
+#header div div img, #header div div div{
+    float:left;
+    color:white;}
+
+
+h1{
+    margin-top: 6svh;
+    font-size: 8svh;
+    text-align:center;
+    font-weight:700;
+    font-style:italic;}
+
+#spacing{
+    letter-spacing:0.5svh
+}
+
+
+
+h2{
+    margin-bottom: 5px;
+    color:rgb(78, 78, 78);
+    font-size: 8svh;
+    text-align:center;
+    font-weight:700;
+    font-style:italic;}
+
+
+p{
+    text-align:center;
+    font-weight:400;
+    font-style:italic;
+    margin-top: 2svh;
+    font-size: 3.5svh;}
+
+
+#intro{
+    pointer-events: none;}
+
+
+nav a:hover, footer a:hover{
+    color:#ff5100;
+    text-decoration:underline;}
+
+
+

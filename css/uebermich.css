@@ -1,0 +1,34 @@
+#uebermich{
+    background-color:rgba(0, 0, 0, 0.3);
+    display:block;
+    margin:auto ;
+    padding:50px 0;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+#uebermich div{
+margin:auto;
+width:950px;
+
+}
+
+#uebermich div p,#uebermich div img{
+    display:inline-block;
+    float:left;}
+
+
+#uebermich img{
+    display:inline-block;
+    height:300px;
+    width:300px;
+    border-radius:2000px;
+    margin-right:50px;}
+
+
+#uebermich p{
+    color:black;
+    font-size:22px;
+    text-align:left;
+    max-width:600px;}
+
