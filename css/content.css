@@ -54,7 +54,9 @@ transition:top, left, bottom, right, 200ms ease-in-out}
 #contact{
 background-color:rgba(0, 0, 0, 0.7);
 display:block;
-min-height: calc(100% - 50px)}
+min-height:100%;
+min-height: calc(100% - 50px);
+min-height: calc(100svh - 50px);}
     
 #contact h2{
 padding-top:50px;
