@@ -54,7 +54,8 @@ display:inline-block;}
     top: 0;
     bottom: 0;
     width: 100%;
-    height: 100%; 
+    height: 100%;
+    height: 100svh; 
     display:block;
     overflow: hidden;
     margin-bottom: 25px;}
@@ -67,6 +68,8 @@ display:inline-block;}
     background-position:center;
     min-width: 100%; 
     min-height: 100%; 
+    width: 100svw;
+    height: 100svh; 
     margin: 0 auto;
     object-fit: cover;
     object-position: center center;
