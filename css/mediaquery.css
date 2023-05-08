@@ -8,7 +8,7 @@
     }
     
     #header #overlay{
-      margin-top:30vh;
+      margin-top:30svh;
   }}
   
   @media only screen and (max-width: 1000px) {
@@ -19,22 +19,32 @@
     .content div:nth-child(2n){
       margin-right:0px}
 
-
-
-#uebermich img{
-  margin: 0 auto;
-  padding: 0;
-  margin: 25px auto;
+#uebermich{
+  width:100svw;
 }
 
-    #uebermich div div{margin: auto;
-      width: fit-content;
+#uebermich div{
+  margin: auto;
+  float:none;
+  width:600px;
+}
+
+#uebermich div div img{
+  display:blocK;
+  float:none;
+  padding: 0;
+  margin: 25px auto;
+
+}
+
+    #uebermich div div{
+      margin: auto;
+      float:none;
       block-size: fit-content;}
 
     #uebermich p{
-      text-align:center;
       margin:auto;
-      width: fit-content;
+      width: 600px;
       float:none;
       display: block;
       padding: 0;}
