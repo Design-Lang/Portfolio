@@ -5,6 +5,7 @@ clear:both;
 }
 
 form{
+	border:none;	
 	color:white;
 	margin:auto;
 	padding: 50px 0;
@@ -23,11 +24,14 @@ display:block;
 }
 
 form #send{
+	border:none;
 width:100%;
 padding:5px 0;
 }
 
 form textarea{
+	margin-bottom:5px;
+	border:none;
 resize:none; 
 width:100%;
 }
@@ -52,6 +56,7 @@ color:black;
 }
 
 form select, form input{
+	border:none;
 padding:0.25em 0;
 width:100%;
 }
