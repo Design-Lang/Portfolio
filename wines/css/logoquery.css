@@ -1,0 +1,23 @@
+@media screen and (max-width:1180px){
+#logo{
+width:12.712% !important;
+height:auto !important;
+right:3.5% !important;
+bottom:40px;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+}
+
+
+
+@media screen and (max-width:500px){
+
+#logo{
+display:none;
+}
+
+}
