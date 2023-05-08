@@ -54,7 +54,7 @@ transition:top, left, bottom, right, 200ms ease-in-out}
 #contact{
 background-color:rgba(0, 0, 0, 0.7);
 display:block;
-min-height: 100%}
+min-height: calc(100% - 50px)}
     
 #contact h2{
 padding-top:50px;
@@ -66,6 +66,7 @@ padding-top:50px;
 
 
 #footer{
+    height:50px;
     z-index:1;
     background-color:rgba(0,0,0,0.5);
     text-shadow: 0px 3px 2px black;
