@@ -1,0 +1,14 @@
+
+	#logo{
+	overflow:hidden;
+	position:fixed;
+	width:150px;
+	bottom:40px;
+	right:40px;
+	}
+
+	#logo img{
+	float:left;
+	height:auto;
+	width:100%;
+	}
